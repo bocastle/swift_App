@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4C5E20293E1EEC001F18B5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4C5E1F293E1EEC001F18B5 /* WebKit.framework */; };
+		2D4C5E22293E1F5E001F18B5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C5E21293E1F5E001F18B5 /* WebViewController.swift */; };
 		2DBC58A2292BB8F400A7DFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC58A1292BB8F400A7DFBD /* AppDelegate.swift */; };
 		2DBC58A4292BB8F400A7DFBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC58A3292BB8F400A7DFBD /* SceneDelegate.swift */; };
 		2DBC58A6292BB8F400A7DFBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC58A5292BB8F400A7DFBD /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4C5E1F293E1EEC001F18B5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2D4C5E21293E1F5E001F18B5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2DBC589E292BB8F400A7DFBD /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBC58A1292BB8F400A7DFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBC58A3292BB8F400A7DFBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4C5E20293E1EEC001F18B5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4C5E1E293E1EEC001F18B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4C5E1F293E1EEC001F18B5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DBC5895292BB8F400A7DFBD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 				2DBC58B7292BB8F600A7DFBD /* ToDoListTests */,
 				2DBC58C1292BB8F600A7DFBD /* ToDoListUITests */,
 				2DBC589F292BB8F400A7DFBD /* Products */,
+				2D4C5E1E293E1EEC001F18B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +120,7 @@
 				2DBC58AA292BB8F500A7DFBD /* Assets.xcassets */,
 				2DBC58AC292BB8F500A7DFBD /* LaunchScreen.storyboard */,
 				2DBC58AF292BB8F500A7DFBD /* Info.plist */,
+				2D4C5E21293E1F5E001F18B5 /* WebViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -261,6 +276,7 @@
 				2DBC58A6292BB8F400A7DFBD /* ViewController.swift in Sources */,
 				2DBC58A2292BB8F400A7DFBD /* AppDelegate.swift in Sources */,
 				2DBC58A4292BB8F400A7DFBD /* SceneDelegate.swift in Sources */,
+				2D4C5E22293E1F5E001F18B5 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
